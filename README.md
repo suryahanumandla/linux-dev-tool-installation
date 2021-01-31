@@ -4,6 +4,8 @@ A shell script file for installing dev tools. It would be very useful for quick 
 # Install snap store
 ```sh
 echo "Installing snap store.."
+# For Linux Mint 20 or above. By default snapd is not enabled in Linux Mint 20 or higher. To enable, use the below command.
+# sudo mv /etc/apt/preferences.d/nosnap.pref ~ 
 sudo apt-get install snapd
 echo "Snap store installed successfully"
 ```
